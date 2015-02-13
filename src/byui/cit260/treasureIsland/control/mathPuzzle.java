@@ -11,6 +11,13 @@ package byui.cit260.treasureIsland.control;
  */
 public class mathPuzzle {
     
+        public int multiplyTwoNumbers(int x, int y){
     
+        //Placeholder numbers
+        x = 2;
+        y = 4;
+        
+        return x*y;
+    } 
     
 }

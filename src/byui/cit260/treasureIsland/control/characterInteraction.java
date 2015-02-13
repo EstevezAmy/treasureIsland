@@ -11,9 +11,16 @@ package byui.cit260.treasureIsland.control;
  */
 public class characterInteraction {
     
-    public int multiplyTwoNumbers(int x, int y){
+    public static void main(){
     
-        return 3*3;
-    } 
- 
+    //Declare variables
+    int a, b, answer;
+    
+    //Placeholder values
+    a = 3;
+    b = 4;
+    answer = (a + b);
+    
+    System.out.println(answer);
+    }
 }
