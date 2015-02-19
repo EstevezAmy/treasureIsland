@@ -11,4 +11,7 @@ package byui.cit260.treasureIsland.control;
  */
 public class Navigation {
     
+  public static void main(String[] args) {
+    System.out.println("What location would you like to move to? ");
+  }
 }
