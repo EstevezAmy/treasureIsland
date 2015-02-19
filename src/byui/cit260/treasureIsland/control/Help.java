@@ -10,9 +10,5 @@ package byui.cit260.treasureIsland.control;
  * @author Amy
  */
 public class Help {
-    public static void main(String[] args) {
-      int i = 0;
-      while (i < 10) 
-    
-   
-
+/** help    
+}
