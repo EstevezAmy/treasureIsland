@@ -48,10 +48,10 @@ public class characterInteractionTest {
     @Test
     public void testDivideTwoNumbers() {
         System.out.println("divideTwoNumbers");
-        int x = 0;
-        int y = 0;
+        int x = 15;
+        int y = 5;
         characterInteraction instance = new characterInteraction();
-        int expResult = 0;
+        int expResult = 3;
         int result = x/y;
         assertEquals(expResult, result);
     }
