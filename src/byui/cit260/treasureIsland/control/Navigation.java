@@ -7,7 +7,7 @@ package byui.cit260.treasureIsland.control;
 
 /**
  *
- * @author Amy
+ * @author Amy/Indira
  */
 public class Navigation {
     
