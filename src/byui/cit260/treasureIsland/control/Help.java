@@ -11,4 +11,6 @@ package byui.cit260.treasureIsland.control;
  */
 public class Help {
     
+    // Comment to show how to commit
+    
 }
