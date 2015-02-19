@@ -13,14 +13,18 @@ public class characterInteraction {
     
     public static void main(){
     
-    //Declare variables
-    int a, b, answer;
-    
-    //Placeholder values
-    a = 3;
-    b = 4;
-    answer = (a + b);
-    
-    System.out.println(answer);
-    }
+       
+    }   
+
+
+
+public int substractTwoNumbers(int x, int y){
+return x-y;}
+
+public int divideTwoNumbers(int x, int y){
+return x/y;}
+
+
+public int addTwoNumbers(int x, int y){
+return x+y;}
 }
