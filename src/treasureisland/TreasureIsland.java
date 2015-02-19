@@ -3,7 +3,9 @@
  */
 package treasureisland;
 
-import byui.cit260.treasureIsland.model.Player;
+import byui.cit260.treasureIsland.view.StartProgramView;
+
+
 
 /**
  *
@@ -14,16 +16,10 @@ public class TreasureIsland {
     /** Game setup according to class instructions
      * @param args
      */
-    public static void main(String[] args) {
-        Player playerOne = new Player();
-        
-        playerOne.setName("Player One");
-        playerOne.setCurrentScore(1500);
-        playerOne.setBestScore(1550);
-        
-        String playerInfo = playerOne.toString();
-        System.out.println(playerInfo);
-        
+    public static void main(String[] args) {       
+        //create StartProgramView and start the program
+        StartProgramView startProgramView = new StartProgramView();
+        startProgramView.startProgram();
     }
     
 }
