@@ -13,7 +13,18 @@ public class characterInteraction {
     
     public int multiplyTwoNumbers(int x, int y){
     
-        return 3*3;
-    } 
- 
+        return x*y;
+    }   
+
+
+
+public int substractTwoNumbers(int x, int y){
+return x-y;}
+
+public int divideTwoNumbers(int x, int y){
+return x/y;}
+
+
+public int addTwoNumbers(int x, int y){
+return x+y;}
 }
