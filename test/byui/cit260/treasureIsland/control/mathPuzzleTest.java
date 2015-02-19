@@ -27,7 +27,7 @@ public class mathPuzzleTest {
         int y = 0;
         mathPuzzle instance = new mathPuzzle();
         int expResult = 0;
-        int result = instance.multiplyTwoNumbers(x, y);
+        int result = x*y;
         assertEquals(expResult, result);
     }
     
