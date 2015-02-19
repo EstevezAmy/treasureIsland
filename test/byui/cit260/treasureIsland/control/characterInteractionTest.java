@@ -37,7 +37,8 @@ public class characterInteractionTest {
         int y = 0;
         characterInteraction instance = new characterInteraction();
         int expResult = 0;
-        int result = instance.multiplyTwoNumbers(x, y);
+        int result;
+        result = multiplyTwoNumbers(x, y);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
@@ -89,6 +90,10 @@ public class characterInteractionTest {
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
+    }
+
+    private int multiplyTwoNumbers(int x, int y) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 }

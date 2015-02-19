@@ -13,7 +13,7 @@ public class characterInteraction {
     
     public static void main(){
     
-        return x*y;
+       
     }   
 
 
