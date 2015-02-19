@@ -40,8 +40,6 @@ public class characterInteractionTest {
         int result;
         result = multiplyTwoNumbers(x, y);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
@@ -56,8 +54,6 @@ public class characterInteractionTest {
         int expResult = 0;
         int result = instance.substractTwoNumbers(x, y);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
@@ -72,8 +68,6 @@ public class characterInteractionTest {
         int expResult = 0;
         int result = instance.divideTwoNumbers(x, y);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
@@ -88,8 +82,6 @@ public class characterInteractionTest {
         int expResult = 0;
         int result = instance.addTwoNumbers(x, y);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     private int multiplyTwoNumbers(int x, int y) {
