@@ -10,5 +10,5 @@ package byui.cit260.treasureIsland.control;
  * @author Amy
  */
 public class Help {
-/** help    
+// help    
 }
