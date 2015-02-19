@@ -29,6 +29,7 @@ public class InventoryControlTest {
         double expResult = 0.0;
         double result = instance.calcVolumeOfBarrel(height, diameter);
         assertEquals(expResult, result, 0.0);
+
     }
     
 }
