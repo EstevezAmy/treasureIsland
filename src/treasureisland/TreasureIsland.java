@@ -1,5 +1,5 @@
 /*
- *This is the main function of VikingQuest
+ * This is the main function of Treasure Island
  */
 package treasureisland;
 
@@ -12,7 +12,7 @@ import byui.cit260.treasureIsland.model.Player;
 
 
 /**
- * @author Amy, Jennifer and Ivy
+ * @author Amy,Indira
  */
 public class TreasureIsland {
 
@@ -42,7 +42,7 @@ public class TreasureIsland {
     }
     
     
-    
+    // Main function
     public static void main(String[] args) {
          
         // Start program view layer

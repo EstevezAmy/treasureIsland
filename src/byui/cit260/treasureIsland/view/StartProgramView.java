@@ -1,7 +1,5 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Treasure Island - View Layer - Start Program
  */
 
 
@@ -14,7 +12,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Imy, Indira
+ * @author Amy, Indira
  */
 
 public class StartProgramView {
@@ -41,7 +39,7 @@ public class StartProgramView {
     }
     private void displayBanner(){
         
-        System.out.println(" " + "\n***  Viking Quest ***");
+        System.out.println(" " + "\n***  Treasure Island ***");
     }
     public String getPlayersName(){
             boolean valid = false;// indicates whether name has been retrived.

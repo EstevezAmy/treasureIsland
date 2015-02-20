@@ -1,7 +1,5 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Treasure Island - Model Layer - Player
  */
 package byui.cit260.treasureIsland.model;
 
@@ -10,7 +8,7 @@ import java.util.Objects;
 
 /**
  *
- * @author Amy
+ * @author Amy/ Indira
  */
 public class Player implements Serializable{
     
