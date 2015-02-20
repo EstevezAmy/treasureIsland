@@ -72,9 +72,9 @@ public class StartProgramView {
         
         System.out.println("\n=================================================");
         System.out.println("\n");
-        System.out.println("\t  Welcome To Viking Quest " + player.getName() + "!");
+        System.out.println("\t  Welcome To Treasure Island " + player.getName() + "!");
         System.out.println("\n");
-        System.out.println("\t  Enjoy And Good Luck!");
+        System.out.println("\t      Enjoy And Good Luck!");
         System.out.println("\n================================================="); 
         System.out.println("\n");
     }
