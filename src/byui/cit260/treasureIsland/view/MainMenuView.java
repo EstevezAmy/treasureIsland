@@ -21,7 +21,8 @@ public class MainMenuView {
         + "\n---------------------"
         + "\n|     Main Menu     |"
         + "\n---------------------"
-        + "\nG - Start Game"
+        + "\nN - Start New Game"
+        + "\nG - Continue Existing Game"
         + "\nH - Get help on how to play the game"
         + "\nS - Save Game"
         + "\nE - Exit"
@@ -30,7 +31,7 @@ public class MainMenuView {
     public void displayMenu() {
 
         
-        char selection = ' ';
+        char selection;
         do {
             System.out.println(MENU); //Display the main menu
             
@@ -45,7 +46,7 @@ public class MainMenuView {
 
     private String getInput() {
         boolean valid = false;// indicates whether name has been retrived.
-        String selection = null;
+        String choice = null;
         Scanner keyboard = new Scanner(System.in);// keyboard input stream
         
         //Ask for and recieve user name input Placeholder
@@ -57,11 +58,11 @@ public class MainMenuView {
             System.out.println("Enter the letter of your selection: \n");
             
             //get the name from the keyboard trim off blank spaces
-            selection = keyboard.nextLine();
-            selection = selection.trim();
+            choice = keyboard.nextLine();
+            choice = choice.trim();
                 
             //if the input is invalid send out error message
-            if(selection.length()>=2){
+            if(choice.length()>=2){
                 System.out.println("Invalid entry - Please Select a letter.");
                 continue; // and repeat again
                    
@@ -84,6 +85,8 @@ public class MainMenuView {
             case 'H': // display help menu
                 this.displayHelpMenu();
                 break;
+            case 'S': // save game
+                this.saveGame();
             case 'E': // Exit Program
                 return;
             default:
