@@ -72,6 +72,11 @@ public class StartProgramView {
         System.out.println("\n");
         System.out.println("\t  Welcome To Treasure Island " + player.getName() + "!");
         System.out.println("\n");
+        System.out.println(" This is the beautiful Island of Taki where ");
+        System.out.println(" your adventure begins. Read your grandfathers letter,");
+        System.out.println(" carefully making sure you collect enough resources");
+        System.out.println(" along the way to reach the treasure!!!");
+        System.out.println("\n");
         System.out.println("\t      Enjoy And Good Luck!");
         System.out.println("\n================================================="); 
         System.out.println("\n");
