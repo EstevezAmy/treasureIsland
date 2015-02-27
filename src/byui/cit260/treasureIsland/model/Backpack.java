@@ -21,6 +21,7 @@ public class Backpack implements Serializable {
     
     //Constructor Function 
     public Backpack() {
+        
     }
     
     

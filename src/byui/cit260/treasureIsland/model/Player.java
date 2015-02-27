@@ -16,6 +16,7 @@ public class Player implements Serializable{
     private String name;
     private double currentScore;
     private double bestScore;
+    Backpack backpack = new Backpack();
     
     // Constructor Function
     public Player() {

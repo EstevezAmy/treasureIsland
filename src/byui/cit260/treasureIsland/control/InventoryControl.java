@@ -11,18 +11,8 @@ package byui.cit260.treasureIsland.control;
  */
 public class InventoryControl {
     
-    public double calcVolumeOfBarrel(double height, double diameter) {
-        if (height < 0){ // height is negative?
-                return -1;
-        }
-        if (diameter < 0 || diameter > 36){ // diameter out of range?
-                return -1;
-        }
-        double radius = diameter / 2;
-        double volume = (Math.PI * Math.pow(radius, 2) * height) / 1728;
-                        
-        return volume;
-    }
-    
-
+    //Placeholder note
+    public void inventoryControl(){
+    System.out.println("InventoryControl() function called");
+    } 
 }

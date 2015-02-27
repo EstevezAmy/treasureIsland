@@ -128,7 +128,7 @@ public class GameMenuView {
     
     private void itemRecieved() {
         
-        System.out.println("*** giveItem()displayHelpMenu function called ***");
+        System.out.println("*** itemRecieved()displayHelpMenu function called ***");
     } 
     
     private void displayHelpMenu(){
