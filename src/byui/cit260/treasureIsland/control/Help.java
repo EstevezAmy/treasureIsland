@@ -4,11 +4,17 @@
  * and open the template in the editor.
  */
 package byui.cit260.treasureIsland.control;
-
+import byui.cit260.treasureIsland.view.GetHelp;
 /**
  *
  * @author Amy/Indira
  */
 public class Help {
-// help    
-}
+
+    GetHelp help = new GetHelp();
+    
+    public void showHelpMenu() {
+        help.displayHelp();
+    }
+}   
+

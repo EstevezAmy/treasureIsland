@@ -24,7 +24,7 @@ public class MainMenuView {
         + "\nN - New Game"
         + "\nG - Start Game"
         + "\nH - Get help on how to play the game"
-        + "\nS - Save Game"
+        + "\nG - Save Game"
         + "\nE - Exit"
         + "\n---------------------";
     
@@ -36,6 +36,7 @@ public class MainMenuView {
             System.out.println(MENU); //Display the main menu
             
             String input = this.getInput(); // Get user selection
+            
             selection = input.charAt(0);
         
             this.doAction(selection);  //Do action selected
