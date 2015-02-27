@@ -16,20 +16,5 @@ public class InventoryControlTest {
     
     public InventoryControlTest() {
     }
-
-    /**
-     * Test of calcVolumeOfBarrel method, of class InventoryControl.
-     */
-    @Test
-    public void testCalcVolumeOfBarrel() {
-        System.out.println("calcVolumeOfBarrel");
-        double height = 0.0;
-        double diameter = 0.0;
-        InventoryControl instance = new InventoryControl();
-        double expResult = 0.0;
-        double result = instance.calcVolumeOfBarrel(height, diameter);
-        assertEquals(expResult, result, 0.0);
-
-    }
-    
 }
+    
