@@ -21,6 +21,7 @@ public class MainMenuView {
         + "\n---------------------"
         + "\n|     Main Menu     |"
         + "\n---------------------"
+        + "\nN - New Game"
         + "\nG - Start Game"
         + "\nH - Get help on how to play the game"
         + "\nS - Save Game"
@@ -70,7 +71,7 @@ public class MainMenuView {
             
         }
       
-        return null;
+        return selection;
     }
     
     public void doAction(char choice) {
