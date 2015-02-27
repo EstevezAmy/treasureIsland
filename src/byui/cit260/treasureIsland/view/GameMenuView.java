@@ -21,6 +21,7 @@ public class GameMenuView {
         + "\nT - Talk to someone"
         + "\nG - Give Item"
         + "\nI - Item Recieved"
+        + "\nH - Help"
         + "\nM - Main Menu"
         + "\n---------------------";
     
@@ -88,6 +89,9 @@ public class GameMenuView {
             case 'I': // Item (Received)
                 this.itemRecieved();
                 return;
+            case 'H': // Item (Received)
+                this.displayHelpMenu();
+                return;
             case 'M': // Exit to Main Menu
                 this.returnToMain();
                 return;
@@ -108,27 +112,32 @@ public class GameMenuView {
     private void viewBackpack() {
         
         //Placeholder mark begining of function call
-        System.out.println("*** StartExistingGame function called ***");
+        System.out.println("*** viewBackpack() function called ***");
         
     }
     
     private void talk() {
         
-        System.out.println("*** saveGame function called ***");
+        System.out.println("*** talk() function called ***");
     }
     
     private void giveItem() {
         
-        System.out.println("*** displayHelpMenu function called ***");
+        System.out.println("*** giveItem()displayHelpMenu function called ***");
     } 
     
     private void itemRecieved() {
         
-        System.out.println("*** displayHelpMenu function called ***");
+        System.out.println("*** giveItem()displayHelpMenu function called ***");
+    } 
+    
+    private void displayHelpMenu(){
+        
+        System.out.println("*** displayHelpMenu() function called ***");
     } 
     
     private void returnToMain() {
         
-        System.out.println("*** displayHelpMenu function called ***");
+        System.out.println("*** returnToMainMenu() function called ***");
     } 
 }
