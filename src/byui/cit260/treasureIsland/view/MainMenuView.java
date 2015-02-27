@@ -24,7 +24,7 @@ public class MainMenuView {
         + "\nN - New Game"
         + "\nG - Start Game"
         + "\nH - Get help on how to play the game"
-        + "\nG - Save Game"
+        + "\nS - Save Game"
         + "\nE - Exit"
         + "\n---------------------";
     
@@ -83,9 +83,11 @@ public class MainMenuView {
             case 'G': // will start an existing game
                 this.startExistingGame();
                 break;
-            case 'H': // display help menu
+            case 'H': // display How to play the game
                 this.displayHelpMenu();
                 break;
+            case 'S': // Save Game
+                this.saveGame();
             case 'E': // Exit Program
                 return;
             default:
@@ -126,8 +128,22 @@ public class MainMenuView {
         System.out.println("*** saveGame function called ***");
     }
     
-    private void displayHelpMenu() {
-        System.out.println("*** displayHelpMenu function called ***");
+    private void displayHelpMenu() {      // Display overview of game
+        System.out.println("\n ======================================================");
+        System.out.println("\t             Main Help Menu");
+        System.out.println("\n                                    ");
+        System.out.println("\n To begin your adventure, follow these simple steps:");
+        System.out.println("\n ======================================================");
+        System.out.println("\n First, select 'N' from the main menu above");
+        System.out.println("\n tis will start a new game.");
+        System.out.println("\n                                    ");
+        System.out.println("\n If you want to continue with an existing game, ");
+        System.out.println("\n select 'G' from the Main Menu.");
+        System.out.println("\n                                            ");
+        System.out.println("\n If you need help throught your game, you can always ");
+        System.out.println("\n select the Game menu 'Help', which can provide you ");
+        System.out.println("\n with more specific instructions.");
+        System.out.println("\n ======================================================");
     } 
 }
 
